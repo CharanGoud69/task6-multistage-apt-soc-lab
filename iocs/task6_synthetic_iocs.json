@@ -1,0 +1,13 @@
+{
+  "event_info": "Task 6 - Synthetic Multi-Stage APT Investigation",
+  "classification": "Lab-only; not confirmed malicious indicators",
+  "published_to_misp": false,
+  "attributes": [
+    {"type": "ip-src", "value": "192.0.2.15", "to_ids": false},
+    {"type": "ip-dst", "value": "192.0.2.25", "to_ids": false},
+    {"type": "ip-dst", "value": "198.51.100.20", "to_ids": false},
+    {"type": "domain", "value": "unusual-test-subdomain.example.test", "to_ids": false},
+    {"type": "hostname", "value": "LAB-WIN-01", "to_ids": false},
+    {"type": "hostname", "value": "LAB-WIN-02", "to_ids": false}
+  ]
+}

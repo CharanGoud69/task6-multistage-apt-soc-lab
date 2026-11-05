@@ -1,0 +1,18 @@
+title: Lab - Privilege Group Membership Change
+id: 9b2f8c31-6e55-4c6e-8d31-2b3c4d5e6f72
+status: experimental
+description: Detects a Windows event indicating a member was added to a security-enabled local group.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4732
+  condition: selection
+falsepositives:
+  - Approved account provisioning
+  - Authorized IT administration
+level: medium
+tags:
+  - attack.persistence
+  - attack.t1098

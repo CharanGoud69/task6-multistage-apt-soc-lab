@@ -1,0 +1,7 @@
+type,value,classification
+ip-src,192.0.2.15,documentation-only
+ip-dst,192.0.2.25,documentation-only
+ip-dst,198.51.100.20,documentation-only
+domain,unusual-test-subdomain.example.test,documentation-only
+hostname,LAB-WIN-01,documentation-only
+hostname,LAB-WIN-02,documentation-only
